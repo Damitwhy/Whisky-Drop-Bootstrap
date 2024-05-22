@@ -45,19 +45,23 @@
         </div>
         <!--</div>-->
     </nav>
-    <div class="container alert-container">
-        <div class="row d-none d-sm-block">
-            <div class="col-12">
-                <div class="alert alert-warning">
-                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>
-                </div>
-            </div>
-        </div>
+    <!--<div class="container alert-container">-->
+    <!--    <div class="row d-none d-sm-block">-->
+    <!--        <div class="col-12">-->
+    <!--            <div class="alert alert-warning">-->
+    <!--                <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+    <div class="container-fluid callout-container">
         <!-- Callout -->
+        <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+                    <hr class="block-divider block-divider--orange">
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
                         <s class="d-none d-sm-inline">€19.99</s>
                         <span class="d-inline d-sm-none"><br></span>
@@ -67,9 +71,10 @@
                 </section>
             </div>
         </div>
-        <!-- /.callout -->
     </div>
-        <!-- Quotes -->
+    <!-- /.callout -->
+
+    <!-- Quotes -->
     <div class="container quotes-container">
         <section class="quotes">
             <div class="row">
@@ -107,14 +112,14 @@
                 </div>
             </div>
         </section>
-        <!-- /.quotes -->
     </div>
+    <!-- /.quotes -->
+
     <!-- Features -->
     <div class="features-container">
-    <section class="features">
-        
-        <div class="row">
-            <div class="col-12 my-5">
+        <section class="features">
+            <div class="row">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Features:</h2>
                     <hr />
                 </div>
@@ -143,9 +148,9 @@
                 </div>
             </div>
         </section>
-    </div>    <!-- /.features -->
-    <!-- old /div for artical -->
-    <!-- MOdel -->
+    </div>
+    <!-- /.features -->
+
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -156,27 +161,27 @@
         </button>
                 </div>
                 <div class="modal-body">
-                    <form action="https://formdump.codeinstitute.net" id="signup-form" method="post">
+                    <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="Email_addres">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+                            <input type="password" class="form-control" id="password" placeholder="Password">
                         </div>
                         <div class="form-group">
                             <label for="repeatPassword">Repeat Password</label>
                             <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
                         </div>
-                        <button type="submit" class="btn btn-success" value="sign-me-up">Submit</button>
+                        <button type="submit" class="btn btn-success">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-<!-- Model end -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

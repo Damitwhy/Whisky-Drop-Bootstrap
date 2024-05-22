@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    /* font-weight: 400;
+    font-style: normal; */
 
 }
 /* .poetsen-one-regular {
@@ -16,3 +16,38 @@ body {
 .selector-for-some-widget {
     box-sizing: content-box;
   } */
+  .alerts-container {}
+
+  .callout-container {
+    height: 100vh;
+   
+    background: url(../images/ThinkstockPhotos-672106460.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quotes-container {}
+
+  .features-container {}
+
+  .jumbotron {
+    background-color: transparent;
+
+  }
+
+  .jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #4d4d4d;
+  }
