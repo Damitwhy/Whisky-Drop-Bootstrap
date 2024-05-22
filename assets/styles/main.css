@@ -16,7 +16,9 @@ body {
 .selector-for-some-widget {
     box-sizing: content-box;
   } */
-  .alerts-container {}
+  .alerts-container {
+    /* something */
+  }
 
   .callout-container {
     height: 100vh;
@@ -41,9 +43,13 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
   }
 
-  .quotes-container {}
+  .quotes-container {
+    /* something */
+  }
 
-  .features-container {}
+  .features-container {
+    /* something */
+  }
 
   .jumbotron {
     background-color: transparent;
