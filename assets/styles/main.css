@@ -27,6 +27,10 @@ body {
   margin-top: 0;
 }
 
+.quotes .page-header {
+  margin-bottom: 25px;
+}
+
 .alert-container .col-12 {
   padding-left: 0;
   padding-right: 0;
@@ -176,4 +180,14 @@ body {
   margin-bottom: 20px;
   font-size: 45px;
   line-height: 45px;
+}
+
+.feature .btn {
+  background-color: white;
+  border-color: white;
+  border-radius: 15px;
+  min-width: 100px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #f05f40;
 }
